@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div style="float:left; width:10%;" align="right">
+      <p>First Name: </p>
+      <p>Last Name: </p>
+      <p>Email: </p>
+      <p>Type of License: </p>
+      <p>Reason: </p>
+      <p>Additional Information: </p>
+    </div>
+    <div style="float:left; width:20%;margin-left:1em">
+      <form action="notReal.html" method="POST">
+        <p><input type="text" name="firstName"/></p>
+        <p><input type="text" name="lastName"/></p>
+        <p><input type="text" name="email"/></p>
+        <p>
+          <input type="radio" name="licenseType" value=Business checked/>Business         <input type="radio" name="licenseType" value=Personal/>Personal
+        </p>
+        <p>
+          <select name="reasonChoice">
+            <option value="Select a Reason">Select a Reason</option>
+            <option value="Software Support">Software Support</option>
+            <option value="Hardware Support">Hardware Support</option>
+            <option value="Information Request">Information Request</option>
+          </select>
+        </p>
+        <p><textarea name="additionalInfo"></textarea></p>
+        <p>
+          <input type="checkbox" name="termsOfService" value="readTerms"/>I have read the terms of service
+        </p>
+        <p><input type="submit" value="Send Request"/></p>
+      </form>
+    </div>
+</html>
