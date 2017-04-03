@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
+  <link href="restaurantStyles.css"
+        rel="stylesheet"
+        type="text/css" />
   <head>
     <title>Contact Us</title>
+    <style>
+      #labels {
+        float: left;
+        width: 15%;
+        text-align: right;
+        padding-right: 5px;
+      }
+      #inputs {
+        float: left;
+        width: 20%;
+        text-align: left;
+      }
+      .spacing {
+        padding-bottom: 2px;
+      }
+    </style>
   </head>
   <body>
     <h1 align="middle">Tacos and Stuff</h1>
-    <div id="links">
+    <div class="header">
       <hr>
       <table width="20%">
         <tr>
@@ -16,14 +35,22 @@
       </table>
       <hr>
     </div>
-    <div id="main">
-      <div>
+    <div id="labels">
+      <p class="spacing">Name:</p>
+      <p class="spacing">Email:</p>
+      <p class="spacing">Phone:</p>
+      <p class="spacing">Reason for Inquiry:</p>
+      <p>Additional Information:</p>
+      <br/>
+      <p class="spacing">Have you been to the restaurant?</p>
+      <p class="spacing">Best days to contact you:</p>
+    </div>
+    <div id="inputs">
         <form action="notReal.html" method="POST">
-          <p>Name: <input type="text" name="name"/></p>
-          <p>Email: <input type="text" name="email"/></p>
-          <p>Phone: <input type="text" name="phone"/></p>
+          <p><input type="text" name="name"/></p>
+          <p><input type="text" name="email"/></p>
+          <p><input type="text" name="phone"/></p>
           <p>
-            Reason for Inquiry:
             <select name="reasonForInquiry">
               <option value="catering">Catering</option>
               <option value="privateParty">Private Party</option>
@@ -31,14 +58,12 @@
               <option value="other">Other</option>
             </select>
           </p>
-          <p>Additional Information: <textarea name="additionalInfo"></textarea></p>
+          <p><textarea name="additionalInfo"></textarea></p>
           <p>
-            Have you been to the restaurant?
             <input type="radio" name="beenToRestaurant" value="No" checked/>No
             <input type="radio" name="beenToRestaurant" value="Yes" />Yes
           </p>
           <p>
-            Best days to contact you:
             <input type="checkbox" name="contactday" value="Monday"/>M
             <input type="checkbox" name="contactday" value="Tuesday"/>T
             <input type="checkbox" name="contactday" value="Wednesday"/>W
@@ -48,9 +73,8 @@
           <p>
             <input type="submit" value="Send Request"/>
           </p>
-      </div>
     </div>
-    <div id="footer" style="position:fixed;bottom:5px;width:100%">
+    <div class="footer">
       <hr>
       <footer >
         <center>

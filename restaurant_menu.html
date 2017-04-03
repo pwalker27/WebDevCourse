@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
+<link href="restaurantStyles.css"
+      rel="stylesheet"
+      type="text/css" />
   <head>
     <title>Menu</title>
+    <style>
+      #menu1 {
+        float: left;
+        width: 33%;
+        text-align: center;
+      }
+      #menu2 {
+        float: left;
+        width: 33%;
+        text-align: center;
+      }
+      #menu3 {
+        float: left;
+        width: 33%;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
     <h1 align="middle">Tacos and Stuff</h1>
-    <div id="links">
+    <div class="header">
       <hr>
       <table width="20%">
         <tr>
@@ -16,8 +36,8 @@
       </table>
       <hr>
     </div>
-    <div id="main">
-      <div style="float:left;width:33%;text-align:center">
+    <div>
+      <div id="menu1">
         <h2>Fish Tacos</h2>
         <p>
           The Taco and Stuff Classic!<br/>
@@ -33,7 +53,7 @@
           $20.99<br/>
         </p>
       </div>
-      <div style="float:left;width:33%;text-align:center">
+      <div id="menu2">
         <h2>Pancake Tacos</h2>
         <p>
           Our funky twist!<br/>
@@ -49,7 +69,7 @@
           $15.99<br/>
         </p>
       </div>
-      <div style="float:left;width:33%;text-align:center">
+      <div id="menu3">
         <h2>Hamburger</h2>
         <p>
           Just a hamburger!<br/>
@@ -66,7 +86,7 @@
         </p>
       </div>
     </div>
-    <div id="footer" style="position:fixed;bottom:5px;width:100%">
+    <div class="footer">
       <hr>
       <footer >
         <center>
