@@ -1,8 +1,12 @@
-.center {
+.link {
     text-align: center;
 }
+a {
+  text-decoration: none;
+}
 a:hover {
-  color: hotpink;
+  background-color: hotpink;
+  text-decoration: underline;
 }
 .albumImage {
   background-image: url("ZZ_Top_Eliminator.jpg");
@@ -13,4 +17,13 @@ a:hover {
 li {
   font-style: italic;
   font-weight: bold;
+}
+tbody td {
+  font-style: italic;
+}
+thead th {
+  background-color: skyblue;
+}
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
 }
