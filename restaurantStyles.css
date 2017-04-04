@@ -7,3 +7,22 @@
   width:100%;
   background-color: lightblue;
 }
+.menuBackground {
+  height: 700px;
+  background-color: wheat;
+}
+.homeBackground {
+  height: 700px;
+  background-color: lightcoral;
+}
+#menuItem {
+  font-size: 25px;
+  font-weight: bold;
+}
+#required {
+  font-weight: bold;
+}
+.restaurantName {
+  font-family: arial;
+  text-align: center;
+}
