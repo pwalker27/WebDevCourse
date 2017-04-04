@@ -26,3 +26,26 @@
   font-family: arial;
   text-align: center;
 }
+a:visited {
+  color: green;
+}
+a:hover {
+  font-weight: bold;
+}
+a:active {
+  text-decoration: none;
+}
+table.beverageTable thead th {
+  text-align: left;
+  text-decoration: underline;
+  padding-left: 5px;
+}
+table.beverageTable tbody td {
+  padding: 5px 100px 5px 5px;
+}
+table.beverageTable tbody td:first-child + td{
+  padding-right: 5px;
+}
+table.beverageTable {
+  border: 1px solid black;
+}
