@@ -10,10 +10,12 @@
 .menuBackground {
   height: 700px;
   background-color: wheat;
+  margin-top: -9px;
 }
 .homeBackground {
   height: 700px;
   background-color: lightcoral;
+  margin-top: -9px;
 }
 #menuItem {
   font-size: 25px;
