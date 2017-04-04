@@ -8,12 +8,6 @@ a:hover {
   background-color: hotpink;
   text-decoration: underline;
 }
-.albumImage {
-  background-image: url("ZZ_Top_Eliminator.jpg");
-  background-repeat: no-repeat;
-  height: 300px;
-  background-position: center;
-}
 li {
   font-style: italic;
   font-weight: bold;
@@ -23,6 +17,10 @@ tbody td {
 }
 thead th {
   background-color: skyblue;
+  text-align: center;
+}
+caption {
+  text-align: center;
 }
 tbody tr:nth-child(odd) {
   background-color: lightgray;
