@@ -2,8 +2,11 @@
 <html>
   <head>
     <title>Home Page</title>
+    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
     <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <noscript>Please enable JavaScript for full functionality</noscript>
   </head>
   <body>
     <h1 class="restaurantName">Tacos and Stuff</h1>
@@ -18,7 +21,7 @@
     <div class="homeBackground">
       <div class="col-xs-4"></div>
       <div class="col-xs-4">
-        <img src="taco.jpg" alt="Taco Dish Picture" style="display:block;margin:auto" class="img-responsive"/>
+        <img src="images/taco.jpg" alt="Taco Dish Picture" style="display:block;margin:auto" class="img-responsive"/>
         <table class="table table-bordered table-responsive" style="display:block;margin:auto">
           <tr>
             <th>
@@ -36,6 +39,46 @@
           </div>
         </div>
       </div>
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4">
+        <div id="newsCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#newsCarousel" data-slide-to="1"></li>
+            <li data-target="#newsCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/newLocation.jpg" alt="New location" class="img-responsive"/>
+              <div class="carousel-caption">
+                <h2>Check out our new location!</h2>
+                <p>344 New Location St</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/seasonalMenu.jpg" alt="Taco Picture" class="img-responsive"/>
+              <div class="carousel-caption">
+                <h2>Now introducing our new seasonal menu</h2>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/specialDrink.jpg" alt="Beer Picture" class="img-responsive"/>
+              <div class="carousel-caption">
+                <h2>Come try our new SG Special Brew!</h2>
+              </div>
+            </div>
+          </div>
+
+          <a class="left carousel-control" href="#newsCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          </a>
+          <a class="right carousel-control" href="#newsCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+      <div class="col-xs-4"></div>
     </div>
     <div class="footer">
       <hr>

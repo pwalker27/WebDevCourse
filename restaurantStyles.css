@@ -14,7 +14,7 @@
   margin-top: -9px;
 }
 .homeBackground {
-  height: 1000px;
+  height: 1500px;
   background-color: lightcoral;
   margin-top: -9px;
 }
@@ -73,6 +73,6 @@ table.beverageTable {
   background-color: lightgrey !important;
 }
 .jumbotron {
-  background-image: url("confetti.gif");
+  background-image: url("images/confetti.jpg");
   background-size: cover;
 }
