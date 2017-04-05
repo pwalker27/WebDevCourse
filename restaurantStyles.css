@@ -1,5 +1,6 @@
 .header {
   background-color: lightblue;
+  padding-bottom: -10px;
 }
 .footer {
   position:fixed;
@@ -8,14 +9,22 @@
   background-color: lightblue;
 }
 .menuBackground {
-  height: 700px;
+  height: 1000px;
   background-color: wheat;
   margin-top: -9px;
 }
 .homeBackground {
-  height: 700px;
+  height: 1000px;
   background-color: lightcoral;
   margin-top: -9px;
+}
+.contactBackground {
+  height: 1000px;
+  background-color: lightcyan;
+  margin-top: -9px;
+}
+.col-centered {
+  text-align: center;
 }
 #menuItem {
   font-size: 25px;
@@ -50,4 +59,20 @@ table.beverageTable tbody td:first-child + td{
 }
 table.beverageTable {
   border: 1px solid black;
+}
+.table-bordered {
+  border: 1px solid black !important;
+}
+.nav-tabs > li > a:hover {
+  background-color: lightblue !important;
+}
+.nav-tabs > li.active > a {
+  background-color: lightblue !important;
+}
+.nav-tabs > li > a {
+  background-color: lightgrey !important;
+}
+.jumbotron {
+  background-image: url("confetti.gif");
+  background-size: cover;
 }
