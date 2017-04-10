@@ -1,27 +1,46 @@
 .link {
     text-align: center;
 }
+
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 a:hover {
-  background-color: hotpink;
-  text-decoration: underline;
+    background-color: hotpink;
+    text-decoration: underline;
 }
+
 li {
-  font-style: italic;
-  font-weight: bold;
+    font-style: italic;
+    font-weight: bold;
 }
+
 tbody td {
-  font-style: italic;
+    font-style: italic;
 }
+
 thead th {
-  background-color: skyblue;
-  text-align: center;
+    background-color: skyblue;
+    text-align: center;
 }
+
 caption {
-  text-align: center;
+    text-align: center;
 }
+
 tbody tr:nth-child(odd) {
-  background-color: lightgray;
+    background-color: lightgray;
+}
+
+@font-face {
+    font-family: patricksFont;
+    src: url(PressStart2P-Regular.ttf);
+}
+
+.albumTitle {
+    /*font-family: 'Macondo', cursive;*/
+    font-family: patricksFont;
+    text-decoration: underline dotted;
+    text-align: center;
 }
